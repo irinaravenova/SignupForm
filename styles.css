@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 0;
+    padding: none;
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.bg-container > img {
+    width: 33.3vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.odin-box {
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 160px;
+    width: 33.3vw;
+    margin: none;
+    padding: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.odin-box > img {
+    width: 50px;
+    object-fit:scale-down;
+
+}
+
+#odin-label {
+    color: #fff;
+}
